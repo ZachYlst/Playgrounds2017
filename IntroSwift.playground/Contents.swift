@@ -25,3 +25,24 @@ print(myName)
 var object : Double = 3.14159
 object * 2
 object + 3.14159
+
+var mammal : String; mammal = "catto"; print(mammal)
+var number : Int = 1; print(number * 3)
+let letter = "E"
+print(letter)
+//letter = "O"
+    //Cannot change a constant's value (let)
+
+var three = 3
+var pointOneFourOneFiveNine = 0.14159
+let pi = Double(three) + pointOneFourOneFiveNine
+    //converts "three" into Double format so it can be added to another Double
+
+var applesAreDelicious = true
+if applesAreDelicious {
+    print("Apples are delicious")
+} else {
+    print("Apples are not delicious")
+}
+
+
